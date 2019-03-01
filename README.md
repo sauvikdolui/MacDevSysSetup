@@ -7,7 +7,7 @@ Useful setups commands for a new Mac
 `xcode-select --install`
 
 #### 2. Show hidden files on Finder
-`defaults write com.apple.finder AppleShowAllFiles YES`
+`defaults write com.apple.finder AppleShowAllFiles YES && killall Finder`
 
 #### 3. Homebrew installation
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -24,4 +24,6 @@ Useful setups commands for a new Mac
 5. Import custom theme [`Homebrew Custom.terminal`](https://raw.githubusercontent.com/sauvikdolui/MacDevSysSetup/master/resources/Homebrew%20Custom.terminal) and make it as default one.
 6. Set font Roboto Powersheel from Preference **CMD + ,**
 
+### 6. Disable Screenshot Shadows
+`defaults write com.apple.screencapture disable-shadow -bool TRUE && killall SystemUIServer`
 
