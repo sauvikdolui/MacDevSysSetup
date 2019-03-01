@@ -21,7 +21,7 @@ Useful setups commands for a new Mac
 2. Clone  https://github.com/powerline/fonts, make `install.sh` executable by `chmod +x install.sh`. Run it to install fonts.
 3. Open `.zshrc` to chage the theme as `vim ~/.oh-my-zsh/.zshrc`
 4. Move to line no 11 to change the theme line no. 11 `ZSH_THEME="agnoster"`
-5. Import custom theme `Homebrew Custom.terminal` and make it as default one.
+5. Import custom theme [`Homebrew Custom.terminal`](https://raw.githubusercontent.com/sauvikdolui/MacDevSysSetup/master/resources/Homebrew%20Custom.terminal) and make it as default one.
 6. Set font Roboto Powersheel from Preference **CMD + ,**
 
 
