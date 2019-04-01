@@ -27,3 +27,5 @@ Useful setups commands for a new Mac
 ### 6. Disable Screenshot Shadows
 `defaults write com.apple.screencapture disable-shadow -bool TRUE && killall SystemUIServer`
 
+### 7. Mojave Bootable USB Creation
+sudo ~/Documents/Softwares/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/SAUVIK-SAND --nointeraction && say Mojave Drive Created 
