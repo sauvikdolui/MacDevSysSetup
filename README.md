@@ -34,3 +34,5 @@ sudo ~/Documents/Softwares/Install\ macOS\ Mojave.app/Contents/Resources/createi
 
 
 `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
+
+https://opensource.apple.com/source/xnu/xnu-792.2.4/libkern/libkern/sysctl.h.auto.html
