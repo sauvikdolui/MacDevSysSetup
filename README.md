@@ -31,3 +31,6 @@ Useful setups commands for a new Mac
 ```
 sudo ~/Documents/Softwares/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/SAUVIK-SAND --nointeraction && say Mojave Drive Created 
 ```
+
+
+`defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
