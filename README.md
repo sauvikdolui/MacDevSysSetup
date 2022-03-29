@@ -13,7 +13,7 @@ Useful setups commands for a new Mac
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 #### 4. Cocoapods installation
-`gem install -n /usr/local/bin cocoapods`
+`sudo gem install -n /usr/local/bin cocoapods`
 
 ### 5. Installtion of the Oh My ZSH Terminal with Custom Theme `agnoster`
 
