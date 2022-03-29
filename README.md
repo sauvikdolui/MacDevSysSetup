@@ -32,7 +32,26 @@ Useful setups commands for a new Mac
 sudo ~/Documents/Softwares/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/SAUVIK-SAND --nointeraction && say Mojave Drive Created 
 ```
 
+### Xcode Customization
+* `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
+* Search in AppStore and install `Dev Cleaner for Xcode`
+* Toolchain: Install latest version of Swift compilers from https://www.swift.org/download/. For an old version of Swift Compiler try installing https://download.swift.org/swift-5.3.2-release/xcode/swift-5.3.2-RELEASE/swift-5.3.2-RELEASE-osx.pkg. You may need to change the version based on the one you are looking for.
 
-`defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
+### Slack:
+https://slack.com/intl/en-in/downloads/mac
+
+### Microsoft Teams:
+https://www.microsoft.com/en-in/microsoft-teams/download-app
+
+### Sublime Text:
+Download https://www.sublimetext.com/3
+#### Install JSON Prettyfier: 
+```
+cd /Applications/Sublime\ Text.app/Contents/MacOS/Packages 
+git clone https://github.com/dzhibas/SublimePrettyJson.git "Pretty JSON"
+cd Pretty\ JSON/
+git checkout st3
+```
+Use `⌘` + `^` + `J` to prettify. More at [Pretty JSON Package Read Me](https://packagecontrol.io/packages/Pretty%20JSON)
 
 https://opensource.apple.com/source/xnu/xnu-792.2.4/libkern/libkern/sysctl.h.auto.html
