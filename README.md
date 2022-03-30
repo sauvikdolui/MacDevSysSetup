@@ -37,6 +37,9 @@ sudo ~/Documents/Softwares/Install\ macOS\ Mojave.app/Contents/Resources/createi
 * Search in AppStore and install `Dev Cleaner for Xcode`
 * Toolchain: Install latest version of Swift compilers from https://www.swift.org/download/. For an old version of Swift Compiler try installing https://download.swift.org/swift-5.3.2-release/xcode/swift-5.3.2-RELEASE/swift-5.3.2-RELEASE-osx.pkg. You may need to change the version based on the one you are looking for.
 
+### Node.js
+https://nodejs.org/en/download/
+
 ### Slack:
 https://slack.com/intl/en-in/downloads/mac
 
